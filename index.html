@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-   <style>
+  <style>
     body {
       background-color: #f2f2f2;
       font-family: Arial, sans-serif;
@@ -16,7 +16,6 @@
       height: 100vh;
     }
     button {
-      background-color: blue;
       border: none;
       color: white;
       padding: 15px 32px;
@@ -27,24 +26,28 @@
       margin: 4px 2px;
       cursor: pointer;
     }
+    #amina {
+        width: 10;
+        height: 20;
+    }
     #counter {
       font-size: 48px;
-      color: #4CAF50;
+      color: #4caf50;
       text-align: center;
       margin-top: 20px;
     }
   </style>
   <body>
-    <button id="click-me">Click Me</button>
-  <div id="counter">0</div>
-  <script>
-    var count = 0;
-    var button = document.getElementById("click-me");
-    var counter = document.getElementById("counter");
-    button.addEventListener("click", function() {
-      count++;
-      counter.innerHTML = count;
-    });
-  </script>
+    <button id="click-me"><img src="1.jpg" id=amina/></button>
+    <div id="counter">0</div>
+    <script>
+      var count = 0
+      var button = document.getElementById("click-me")
+      var counter = document.getElementById("counter")
+      button.addEventListener("click", function () {
+        count++
+        counter.innerHTML = count
+      })
+    </script>
   </body>
 </html>
